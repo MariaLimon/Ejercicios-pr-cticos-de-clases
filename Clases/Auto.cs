@@ -6,17 +6,15 @@ using System.Threading.Tasks;
 
 namespace Ejercicios_prácticos_de_clases.Clases
 {
-    internal class Vehiculo
+    //clase derivada 
+    internal class Auto : Vehiculo
     {
-        private string _marca;
+        private string _modelo;
 
-        public string MarcaCarro
+        public string ModeloAuto
         {
-            get { return _marca; }
-            set { _marca = value; }
+            get { return _modelo; }
+            set { _modelo = value; }
         }
     }
-
-    
-
 }
